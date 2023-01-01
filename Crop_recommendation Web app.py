@@ -68,7 +68,7 @@ def main():
 
     if rad=="Introduction":
         image = Image.open('/Users/mac/Desktop/CRS/download.jpg')
-        st.image(image,width = 800 ,use_column_width=False) 
+        st.image(image,width = 600 ,use_column_width=False) 
         st.text("\n")
         st.title( ":ear_of_rice: Introduction to the project")
         st.write("India is ranked 2nd worldwide in farm output. Agriculture and allied sectors like forestry and fisheries accounted for 16.6 percent of the GDP 2009, about 50 percent of the overall workforce. The monetary contribution of agriculture to India‘s GDP is regularly declining. The crop yield of plants relies on different factors like on climatic, geographical, organic, political and financial elements. For farmers, it is difficult when there is more than one crop to grow especially when the market prices are unknown to them. Citing the Wikipedia statistics, the farmer suicide rate in India has ranged between 1.4 and 1.8 per 100000 total population, over a 10-year period through 2005. While 2014 saw 5650 farmer suicides, the figure crossed 8000 in 2015. ")
@@ -76,7 +76,7 @@ def main():
         st.write("Agriculture and its allied sectors are undoubtedly the largest providers of livelihoods in rural India.The  agriculture sector contributors 18% to the country’s Gross Domestic Product (GDP).However, regrettable is the yield per hectare of crops in comparison to international standards.This is one of the possible causes for a higher suicide rate among marginal farmers in India. The user provides the climatic and soil conditions as input  Machine learning algorithms allow choosing the most profitable crop list or predicting the crop yield for a user-selected crop as output.To predict the crop yield, selected Machine Learning algorithms such as Support Vector Machine (SVM), Random Forest (RF), Navie-bayes Classification, XG Boost, Linear Regression (LR), and Decision Trees are used.Among them, the Random Forest showed the best results with 95% accuracy. ")
         
         image = Image.open('/Users/mac/Desktop/CRS/download-1.jpg')
-        st.image(image, caption='crops',width =700)
+        st.image(image, caption='crops',width =600)
         st.text("\n")
         st.subheader("2. Objectives")
         st.write("Integrating farming and machine learning, we can lead to further advancements in agriculture by maximizing yield and optimizing the use of resources involved. Previous year‘s production data is an essential element for predicting the current yield.The goal of this project is to help the farmers by combining agriculture and technology. The end result is an application that is available on the web as well as mobile.The system uses machine learning to make predictions of the crop and Python as the programming language. Machine learning uses historical data and information to gain experiences and generate a trained model by training it with the dataMachine learning is a tool for turning information into knowledge. ")
