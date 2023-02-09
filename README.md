@@ -9,6 +9,7 @@
 - [Introduction](#Abouttheproject)
 - [Objectives](#Objectives)
 - [Algorithms Used](#AlgorithmsUsed)
+- [License](#License)
 
 #### About the project
   
