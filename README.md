@@ -6,8 +6,10 @@
 
 
 ### Table of Contents
-- [Introduction](#### About the project)
+- [Introduction](# About the project)
+- [Objectives](#Objectives)
 
 #### About the project
      Crop Recommendation System is a Machine Learning Project that is used to predict crops that give maximum yield.The user provides inputs such as rainfall,temperature,soil composition, etc. to the machine learning algorithm that predicts the output crop.To predict the crop yield,selected Machine Learning algorithms such as Support Vector Machine(SVM),Random Forest,Naive-Bayes Classification,Logistic Regression, and Decision Trees are used.
   
+#### Objectives 
